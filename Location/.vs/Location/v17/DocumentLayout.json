@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2024\\Penda\\Unity\\Evaluating_Technologies\\Location\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F401338-902B-D819-863C-38BFAD731220}|Assembly-CSharp.csproj|d:\\2024\\penda\\unity\\evaluating_technologies\\location\\assets\\script\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F401338-902B-D819-863C-38BFAD731220}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\2024\\Penda\\Unity\\Evaluating_Technologies\\Location\\Assets\\Script\\Location.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Location.cs",
+              "ToolTip": "D:\\2024\\Penda\\Unity\\Evaluating_Technologies\\Location\\Assets\\Script\\Location.cs",
+              "RelativeToolTip": "Assets\\Script\\Location.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T16:59:18.309Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
