@@ -277,6 +277,61 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "fa8685fe-08d0-4d41-9dac-9856c0e03742",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "6e08a450-a323-4dc6-bdc0-2b7548b95ee7",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Steering Wheel",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "ab563ce9-6f0c-4606-af71-c252d83ef938",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Steering Wheel",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "bc0e73e2-ca07-4536-825d-5623bc2fd78b",
+                    "path": "<HID::Thrustmaster Thrustmaster T80>/rx",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Steering Wheel",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "edc60c44-84e4-475d-87ed-a7670921b86b",
+                    "path": "<HID::Thrustmaster Thrustmaster T80>/rx",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Steering Wheel",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
@@ -319,6 +374,11 @@
                     "isOR": false
                 }
             ]
+        },
+        {
+            "name": "Steering Wheel",
+            "bindingGroup": "Steering Wheel",
+            "devices": []
         }
     ]
 }
