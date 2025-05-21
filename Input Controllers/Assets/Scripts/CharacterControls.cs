@@ -23,6 +23,7 @@ public class CharacterControls : MonoBehaviour
     void Update()
     {
         moveDirection = move.action.ReadValue<Vector2>();
+        Debug.Log(moveDirection);
     }
 
     void FixedUpdate()
@@ -33,7 +34,7 @@ public class CharacterControls : MonoBehaviour
 
     }
 
-    private void OnFire(InputAction.CallbackContext obj)
+    public void OnFire(InputAction.CallbackContext obj)
     {
         //Debug.Log("Fired");
         newBullet = Instantiate(bulletObject, aimpoint.transform.position, Quaternion.identity);
