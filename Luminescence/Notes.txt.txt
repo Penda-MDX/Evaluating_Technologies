@@ -1,0 +1,5 @@
+Emissive Light Basics
+https://youtu.be/2PBgCl-zIZQ
+
+Lighting Basics in Unity
+https://youtu.be/LTbdJ1HU9eQ
