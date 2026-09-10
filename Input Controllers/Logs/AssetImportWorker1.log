@@ -1,0 +1,509 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-penda" at "2026-09-10T09:14:35.1432129Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32346 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-10T09:14:35Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/penda/Documents/GitHub/Evaluating_Technologies/Input Controllers
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50878
+-licensingIpc
+LicenseClient-penda
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/penda/Documents/GitHub/Evaluating_Technologies/Input Controllers
+C:/Users/penda/Documents/GitHub/Evaluating_Technologies/Input Controllers
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [33048]  Target information:
+
+Player connection [33048]  * "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 2199968132 [EditorId] 2199968132 [Version] 1048832 [Id] WindowsEditor(7,BigLug) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [33048] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33048] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/penda/Documents/GitHub/Evaluating_Technologies/Input Controllers/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:   NVIDIA
+    VRAM:     11943 MB
+    Driver:   32.0.16.1047
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-penda"
+[Licensing::IpcConnector] LicenseClient-penda channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-penda-6000.3.15" at "2026-09-10T09:14:36.339271Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3896, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              b3580a7705ed410c878a962027904671
+  Correlation Id:          9010bf51586e7578c8c1fdca4b900a29
+  External correlation Id: 7132185401902699169
+  Machine Id:              l/GpJj1ofgx/kXnalUV5UWkiK00=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-penda-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-penda-6000.3.15-notifications" at "2026-09-10T09:14:36.3463928Z"
+[Licensing::Module] Licensing Background thread has ended after 1.20s
+[Licensing::Module] Licensing is initialized (took 0.48s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 135508-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.487659 seconds.
+- Loaded All Assemblies, in  0.862 seconds
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.306 seconds
+Domain Reload Profiling: 1164ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (533ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (135ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (307ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (272ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.654 seconds
+Refreshing native plugins compatible for Editor in 2.25 ms, found 5 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.99 ms, found 5 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.555 seconds
+Domain Reload Profiling: 1202ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (122ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (464ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.51 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5272 unused Assets / (1.4 MB). Loaded Objects now: 5847.
+Memory consumption went from 104.1 MB to 102.7 MB.
+Total: 7.989200 ms (FindLiveObjects: 0.505400 ms CreateObjectMapping: 0.631000 ms MarkObjects: 5.305100 ms  DeleteObjects: 1.546200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2971.475708 seconds.
+  path: Assets/MDXGames_Textures/button100/BButton.png
+  artifactKey: Guid(25b3727e28d9086459b5fc2c57b73135) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/BButton.png using Guid(25b3727e28d9086459b5fc2c57b73135) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5f4456482ae1d1abe1bb9b4879c9253') in 0.1075158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MDXGames_Textures/Circles/Circle_Purple.png
+  artifactKey: Guid(3ed48a5c408cd024db780ef6ad9cffa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/Circles/Circle_Purple.png using Guid(3ed48a5c408cd024db780ef6ad9cffa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc5937c89e0a5a4c33c4d96ef47f252a') in 0.0075973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MDXGames_Textures/Squares/square_cross_green.png
+  artifactKey: Guid(833f24041e23f884d8e00a099e93ee33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/Squares/square_cross_green.png using Guid(833f24041e23f884d8e00a099e93ee33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d08abcb53cde62b0e1bbdce1d21bfd9') in 0.0075697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MDXGames_Textures/Triangles/Triangle_Red.png
+  artifactKey: Guid(a0cb563365bdd9d45a8438cfca2ad9d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/Triangles/Triangle_Red.png using Guid(a0cb563365bdd9d45a8438cfca2ad9d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86852d3e264a5b426b807385f67f8801') in 0.0066686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MDXGames_Textures/buttons/Start_Menu.png
+  artifactKey: Guid(5cc450dd0eb73444ebbd65db8390e394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/buttons/Start_Menu.png using Guid(5cc450dd0eb73444ebbd65db8390e394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '756a32abf409741d8bf94c2d5163a116') in 0.0080097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MDXGames_Textures/Circles/Circle_Red.png
+  artifactKey: Guid(457e68d64c6020c4fb9efee91a25b378) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/Circles/Circle_Red.png using Guid(457e68d64c6020c4fb9efee91a25b378) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '873ebfa0010c4ddaaebac4f095048d3b') in 0.0074669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MDXGames_Textures/buttons/left_thumb_press.png
+  artifactKey: Guid(e89880778b4eaa04e8ab75fb2b4e927d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/buttons/left_thumb_press.png using Guid(e89880778b4eaa04e8ab75fb2b4e927d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '700011f0d0a56735b00d99bb42e45a95') in 0.0066255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/MDXGames_Textures/button100/RBumper.png
+  artifactKey: Guid(e7e3ea0093f1f4c4c9395cd987b497fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/RBumper.png using Guid(e7e3ea0093f1f4c4c9395cd987b497fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4aa1da7a3d9323c45417861c774af6e6') in 0.0081491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MDXGames_Textures/button100/Highlight_AButton.png
+  artifactKey: Guid(0c26802169cbb62488b7a5b191f7971d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/Highlight_AButton.png using Guid(0c26802169cbb62488b7a5b191f7971d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '822516e7786212b50c85cd8804780959') in 0.0078417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MDXGames_Textures/icon-ios7-circle-outline-128.png
+  artifactKey: Guid(f17861dc8e94e2048bb7328fcab1247a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/icon-ios7-circle-outline-128.png using Guid(f17861dc8e94e2048bb7328fcab1247a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c5436646d4933581de1435c0b50afe1') in 0.0077905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MDXGames_Textures/Pawns/Pawn_Green.png
+  artifactKey: Guid(46a50b623eb7b8e4681f5ed5bf4d3a06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/Pawns/Pawn_Green.png using Guid(46a50b623eb7b8e4681f5ed5bf4d3a06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c028c3318f83e690d517b3b995d506f') in 0.0066712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MDXGames_Textures/button100/Highlight_MenuButton.png
+  artifactKey: Guid(19fb75c900ebf8a48a865784043d2693) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/Highlight_MenuButton.png using Guid(19fb75c900ebf8a48a865784043d2693) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88694727727a9e7c65f0d5f95e144190') in 0.0083491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/CharacterControls.cs
+  artifactKey: Guid(6565e64d9da9e0c419fad98891ead757) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/CharacterControls.cs using Guid(6565e64d9da9e0c419fad98891ead757) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5883116f4f444121579d07f136070ff8') in 0.0055068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/MDXGames_Textures/button100/Highlight_XButton.png
+  artifactKey: Guid(17800713dac61be4dba6edb53766e38e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/Highlight_XButton.png using Guid(17800713dac61be4dba6edb53766e38e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37b61811b32e8eee234df09aab74c952') in 0.0070211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MDXGames_Textures/button100/RTrigger.png
+  artifactKey: Guid(903bc3d0dadc9f8429a80f8fcbd0cde9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/RTrigger.png using Guid(903bc3d0dadc9f8429a80f8fcbd0cde9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88c7e43ea6554e8ae8779bbdd83673ea') in 0.0070405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MDXGames_Textures/button100/Highlight_LTMove.png
+  artifactKey: Guid(cd637b2d84614e042b5cdf0ebc18baac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/Highlight_LTMove.png using Guid(cd637b2d84614e042b5cdf0ebc18baac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd679172ea640bd96556cf39843897b5a') in 0.0070789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MDXGames_Textures/buttons/A_Button.png
+  artifactKey: Guid(1e1732ebf1360a3458fbe87608822bd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/buttons/A_Button.png using Guid(1e1732ebf1360a3458fbe87608822bd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24dba4ce5152d8cdb76b7d70650024f3') in 0.0073609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MDXGames_Textures/Stars/Star_Green.png
+  artifactKey: Guid(7b696c56026d9fa4aa2e1f1df38e2575) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/Stars/Star_Green.png using Guid(7b696c56026d9fa4aa2e1f1df38e2575) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6e104a83a0a73b7404fb6533fbdd925') in 0.0067302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MDXGames_Textures/Triangles/Triangle_Grey.png
+  artifactKey: Guid(82c6884b74bc60943afd8f64b558ad0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/Triangles/Triangle_Grey.png using Guid(82c6884b74bc60943afd8f64b558ad0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de2268258ad9523440b3a72cd809776c') in 0.0066113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MDXGames_Textures/_Grids/Grid_2000_1000.png
+  artifactKey: Guid(58295bb630054124f8fb8a20cb1c5518) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/_Grids/Grid_2000_1000.png using Guid(58295bb630054124f8fb8a20cb1c5518) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e9528a70a40d188398433f43bb1d3b4') in 0.0107585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MDXGames_Textures/buttons/Right_Trigger.png
+  artifactKey: Guid(cfcb1ef440c69f14f9859edfd574f834) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/buttons/Right_Trigger.png using Guid(cfcb1ef440c69f14f9859edfd574f834) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b8a8464f39053e2e07a8d7865d0d90f') in 0.0062865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MDXGames_Textures/buttons/Y_Button.png
+  artifactKey: Guid(fe6399993cca0c549b29215012251595) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/buttons/Y_Button.png using Guid(fe6399993cca0c549b29215012251595) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a3b1232f9cfc53f4df1ec76f6794cce') in 0.0063861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MDXGames_Textures/Triangles/Triangle_Yellow.png
+  artifactKey: Guid(06f233ca2aa83b448a2a080ab034d52f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/Triangles/Triangle_Yellow.png using Guid(06f233ca2aa83b448a2a080ab034d52f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80442ba8cb9ad0ea4bb57d442a2f5668') in 0.0065957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MDXGames_Textures/button100/LTPress.png
+  artifactKey: Guid(3e076d6ff5dff3c409fef6d8abb62ac5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/LTPress.png using Guid(3e076d6ff5dff3c409fef6d8abb62ac5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e798242217bb1ee9b1f3c31abe20c21a') in 0.0073115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/ControllerButton.cs
+  artifactKey: Guid(41d54f0d95fd0054188c94b362c638f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/ControllerButton.cs using Guid(41d54f0d95fd0054188c94b362c638f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b633a7555359582edd35425bf03886e9') in 0.0029618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Scripts/Bullet.cs
+  artifactKey: Guid(e056401518ccb6340afdb755a0e0782e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Bullet.cs using Guid(e056401518ccb6340afdb755a0e0782e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7055e7ba3ee57397f05f59bd5e4123c') in 0.0032212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/MDXGames_Textures/button100/LTrigger.png
+  artifactKey: Guid(8eb1ae8049ce7e445973806f4bee9044) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/LTrigger.png using Guid(8eb1ae8049ce7e445973806f4bee9044) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '314f5c1b911ecf0e98c8794b5732ad10') in 0.0061047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MDXGames_Textures/buttons/D_Pad.png
+  artifactKey: Guid(e0090fd13562bb640a903e2373f0ce4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/buttons/D_Pad.png using Guid(e0090fd13562bb640a903e2373f0ce4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69d2806b16b2cb6bcae87d9692bbb70e') in 0.0062751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MDXGames_Textures/Squares/Square_Blue.png
+  artifactKey: Guid(973c24f1ef3874548859fbe67fc14a73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/Squares/Square_Blue.png using Guid(973c24f1ef3874548859fbe67fc14a73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b295353c562f96ccba173fdc2cb55d96') in 0.0078007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MDXGames_Textures/button100/RTMove.png
+  artifactKey: Guid(d52140f1f49516d40aa1a1c3f67e5e5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/RTMove.png using Guid(d52140f1f49516d40aa1a1c3f67e5e5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9384e7d5f765dcad730490374495c39') in 0.0081594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MDXGames_Textures/button100/LBumper.png
+  artifactKey: Guid(9ddde3615caf24748a16d06550eccca4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/LBumper.png using Guid(9ddde3615caf24748a16d06550eccca4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98d5416fcc80761ee968fff3e1ce04f9') in 0.0065122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MDXGames_Textures/Stars/Star_Blue.png
+  artifactKey: Guid(9b766c00d35bebd47bb1bb6c5a5eb636) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/Stars/Star_Blue.png using Guid(9b766c00d35bebd47bb1bb6c5a5eb636) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c37c317c8522483b27fc686cdc116abe') in 0.0078816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MDXGames_Textures/button100/Highlight_YButton.png
+  artifactKey: Guid(df148a81178ab8642aedfcb3d30ff79c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MDXGames_Textures/button100/Highlight_YButton.png using Guid(df148a81178ab8642aedfcb3d30ff79c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d0719623ad36f009057278acd047e31') in 0.0081381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

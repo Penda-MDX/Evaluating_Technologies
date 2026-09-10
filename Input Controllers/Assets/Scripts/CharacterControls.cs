@@ -7,8 +7,7 @@ public class CharacterControls : MonoBehaviour
 {
     public float moveSpeed;
 
-        [SerializeField]
-    private Vector2 moveDirection;
+    [SerializeField] private Vector2 moveDirection;
 
     public InputActionReference move;
     public InputActionReference fire;

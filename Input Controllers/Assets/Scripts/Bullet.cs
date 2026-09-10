@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = moveDirection * speed;
+        rb.linearVelocity = moveDirection * speed;
 
         if (timeToDie < Time.time)
         {
